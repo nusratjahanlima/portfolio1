@@ -1,17 +1,32 @@
-
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 
-.aboutMe-section{
+.aboutMe-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.aboutMe-text{
+.aboutMe-text {
     width: 50%;
+}
+
+
+.whatIdo-section {
+    display: flex;
+}
+
+.whatIdo-section>div {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.whatIdo-text {
+    width: 60%;
 }
