@@ -1,8 +1,36 @@
 .banner-section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    width: 50%;
+    height: auto;
 }
+
+.text-section{
+    width: 60%;
+    height: 280px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+
+.text-section .youngObama {
+    color: dimgray;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.s-w-b{
+    font-weight: bold;
+}
+
+.img-container img{
+    margin-top: 30px;
+    margin-right: 120px;
+    padding: 15px;
+}
+
 
 
 .aboutMe-section {
@@ -11,24 +39,45 @@
     align-items: center;
 }
 
+.aboutMe-img img{
+    margin: 15px;
+    margin-left: 280px;
+}
+
+
+.about-me{
+    width: 800px;
+    height: 240px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+}
+
+
 .aboutMe-text {
-    width: 50%;
+    width: 80%;
 }
 
 
 .whatIdo-section {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    height: 280px;
 }
 
 .whatIdo-section>div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin: 20px;
     padding: 10px;
+    width: 800px;
+    height: 200px;;
 }
 
 
 .whatIdo-text {
-    width: 55%;
+    width: 80%;
 }
 
 .footer-text {
